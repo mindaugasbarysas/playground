@@ -9,7 +9,6 @@ Contents:
     :glob:
 
     sources/*/Resources/doc/*
-    doc/*
 
     :hiddendoc:
        */README*
