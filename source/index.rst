@@ -10,13 +10,3 @@ Contents:
 
    *
 
-   :hiddendoc:
-   */README*
-
-
-
-Indices and tables
-==================
-
-* :ref:`search`
-

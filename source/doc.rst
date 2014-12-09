@@ -4,12 +4,10 @@ Documentation
 Contents:
 
 .. toctree::
-    :maxdepth: 6
+    :maxdepth: 1
     :titlesonly:
     :glob:
 
-    sources/*/Resources/doc/*
+    sources/*/Resources/doc/index
 
-    :hiddendoc:
-       */README*
 

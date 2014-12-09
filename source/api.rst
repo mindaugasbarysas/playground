@@ -4,11 +4,8 @@ API Documentation
 Contents:
 
 .. toctree::
-    :maxdepth: 6
+    :maxdepth: 1
     :titlesonly:
     :glob:
 
-    sources/*/Resources/API/*
-
-   :hiddendoc:
-       */README*
+    sources/*/Resources/API/index
