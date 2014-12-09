@@ -240,7 +240,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ONGR', u'ONGR Documentation',
+  ('index', 'ONaGR', u'ONGR Documentation',
    u'ongr-team', 'ONGR', 'One line description of project.',
    'Miscellaneous'),
 ]
