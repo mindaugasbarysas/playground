@@ -268,5 +268,8 @@ api_url = 'http://api.symfony.com/master/%s'
 
 # -- autopull repos
 
-os.system("cd sources; git clone https://github.com/mindaugasbarysas/testrepo2")
-os.system("cd sources; git clone https://github.com/mindaugasbarysas/testrepo1")
+lines = [line.strip() for line in open('sources/.repos')]
+
+for line in lines:
+    os.system("cd sources; git clone %s" % (line))
+
