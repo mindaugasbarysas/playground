@@ -268,6 +268,6 @@ api_url = 'http://api.symfony.com/master/%s'
 
 # -- autopull repos
 
-os.system("pwd; cd source; cd sources;");
+os.system("cd sources");
 os.system("git clone https://github.com/mindaugasbarysas/testrepo2")
 os.system("git clone https://github.com/mindaugasbarysas/testrepo1")
