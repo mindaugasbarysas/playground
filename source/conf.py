@@ -67,7 +67,7 @@ release = '1.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['*.php', 'sources/Docs*', '**/vendor'] # 'API/*', '**/Tests'
+exclude_patterns = ['*.php', '**/vendor'] # 'API/*', '**/Tests'
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -265,3 +265,9 @@ lexers['php-standalone'] = PhpLexer(startinline=True)
 lexers['php-symfony'] = PhpLexer(startinline=True)
 primary_domain = 'php'
 api_url = 'http://api.symfony.com/master/%s'
+
+# -- autopull repos
+
+os.system("pwd; cd source; cd sources;");
+os.system("git clone https://github.com/mindaugasbarysas/testrepo2")
+os.system("git clone https://github.com/mindaugasbarysas/testrepo1")
