@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ONGR'
+project = u'ONGR.io'
 copyright = u'2014, ongr-team'
 
 # The version info for the project you're documenting, acts as replacement for
