@@ -258,6 +258,7 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 from sphinx.highlighting import lexers
+from pygments.lexers.data import YamlLexer
 from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True)
 lexers['php-annotations'] = PhpLexer(startinline=True)

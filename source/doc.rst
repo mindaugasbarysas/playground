@@ -8,6 +8,6 @@ Contents:
     :titlesonly:
     :glob:
 
-    sources/*/Resources/doc/index
+    sources/*/Resources/doc/index*
 
 

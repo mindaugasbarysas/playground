@@ -8,5 +8,6 @@ Contents:
    :titlesonly:
    :glob:
 
-   *
+   doc*
+   api*
 

@@ -1,5 +1,5 @@
 build/*
-source/parent/*
+source/*.git
 
 .idea
 .DS_Store
