@@ -263,7 +263,12 @@ lexers['php'] = PhpLexer(startinline=True)
 lexers['php-annotations'] = PhpLexer(startinline=True)
 lexers['php-standalone'] = PhpLexer(startinline=True)
 lexers['php-symfony'] = PhpLexer(startinline=True)
+
+# github seems to have it, so it's to be expected.
+lexers['yml'] = YamlLexer()
+
 primary_domain = 'php'
 api_url = 'http://api.symfony.com/master/%s'
 
+# magic happens here.
 execfile("pull.py")

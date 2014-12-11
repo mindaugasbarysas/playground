@@ -258,11 +258,15 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 from sphinx.highlighting import lexers
+from pygments.lexers.data import YamlLexer
 from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True)
 lexers['php-annotations'] = PhpLexer(startinline=True)
 lexers['php-standalone'] = PhpLexer(startinline=True)
 lexers['php-symfony'] = PhpLexer(startinline=True)
+
+# github seems to have it, so it's to be expected.
+lexers['yml'] = YamlLexer()
+
 primary_domain = 'php'
 api_url = 'http://api.symfony.com/master/%s'
-
